@@ -6,7 +6,7 @@ import csv
 from st_abr import us_state_abbrev 
 
 #input file name - to be used later for other files in same dir location 
-file_name=input("Input Revenue file data name:")
+file_name=input("Input employee file data name:")
 
 # for file location 
 emp_file = os.path.join("raw_data", file_name)
